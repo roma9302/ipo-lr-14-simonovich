@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Об авторе</title>
+    {% load static %}
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9;">
+    <header style="background-color: #4CAF50; color: white; padding: 20px; text-align: center;">
+        <h1>Об авторе</h1>
+        <nav>
+            <ul style="list-style-type: none; padding: 0;">
+                <a href="http://127.0.0.1:8000/" style="color: white; text-decoration: none;">Главная</a>
+            </ul>
+        </nav>
+    </header>
+    <main style="padding: 20px; text-align: center;">
+        <h2>Привет, я Рома.</h2>
+        <div style="margin: 20px 0;">
+            <img src="{% static 'image\cat2.jpg' %}" style="width: 300px; height: auto;">
+        </div>
+
+        <p>Спасибо, что заглянули в мой магазин! Если у вас есть вопросы, не стесняйтесь обращаться.</p>
+    </main>
+    <footer style="text-align: center; padding: 10px; background-color: #4CAF50; color: white; position: relative; bottom: 0; width: 100%;">
+        <p>&copy; 2025 Магазин тематических рюкзаков и сумок для школы</p>
+    </footer>
+</body>
+</html>

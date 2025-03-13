@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание магазина</title>
+    {% load static %}
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9;">
+    <header style="background-color: #4CAF50; color: white; padding: 20px; text-align: center;">
+        <h1>Магазин тематических рюкзаков и сумок для школы</h1>
+        <nav>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="http://127.0.0.1:8000/" style="color: white; text-decoration: none;">Главная</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main style="padding: 20px; text-align: center;">
+        <h2>Добро пожаловать в наш магазин!</h2>
+        <div style="margin: 20px 0;">
+            <img src="{% static 'image\bag1.jpg' %}" style="width: 300px; height: 200;" alt="Тематические рюкзаки">
+            <img src="{% static 'image\bag2.jpg' %}" style="width: 300px; height: 200;" alt="Тематические рюкзаки">
+        </div>
+
+        <p>В нашем магазине вы найдете широкий ассортимент рюкзаков и сумок, которые подойдут для школьников всех возрастов. Мы предлагаем товары различных стилей и дизайнов, чтобы каждый ребенок мог выбрать то, что ему по душе.</p>
+        
+        <p>Наши рюкзаки сделаны из качественных материалов, обеспечивают комфорт и поддержку во время учебы. Мы заботимся о том, чтобы каждая сумка была не только стильной, но и функциональной.</p>
+        
+        <p>Если у вас есть вопросы или вы хотите получить дополнительную информацию, не стесняйтесь обращаться к нам. Мы всегда рады помочь!</p>
+    </main>
+    <footer style="text-align: center; padding: 10px; background-color: #4CAF50; color: white; position: relative; bottom: 0; width: 100%;">
+        <p>&copy; 2025 Магазин тематических рюкзаков и сумок для школы</p>
+    </footer>
+</body>
+</html>
