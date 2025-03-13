@@ -120,7 +120,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Путь к вашей папке со статическими файлами
+    os.path.join(BASE_DIR, 'static'), 
 ]
 
 # Default primary key field type
