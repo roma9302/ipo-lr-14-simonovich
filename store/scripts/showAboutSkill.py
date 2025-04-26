@@ -28,5 +28,3 @@ def showAboutSkill(id,file_path):
       
     else:
         return [specialty_code,specialty_title,specialty_educational,skill_code,skill_title]
-        # print(f"{specialty_code} >> Специальность {specialty_title} , {specialty_educational}")
-        # print(f"{skill_code} >> Квалификация {skill_title}")
