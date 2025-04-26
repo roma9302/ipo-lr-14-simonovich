@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Информация о квалификации</title>
+</head>
+<body>
+    <a href="http://127.0.0.1:8000/spec" style="color: black; text-decoration: none;">Назад</a>
+    {% if skill_data %}
+        <h2>Специальность: {{ skill_data.1 }}</h2>
+        <h2>Код: {{ skill_data.0 }}</h2>
+        <h2>Тип обучения: {{ skill_data.2 }}</h2>
+        <h2>Квалификация: {{ skill_data.4 }}</h2>
+        <h2>Код квалификации: {{ skill_data.3 }}</h2>
+    {% else %}
+    <h2>Квалификация не найдена.</h2>
+    {% endif %}  
+</body>
+</html>
